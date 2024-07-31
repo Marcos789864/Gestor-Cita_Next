@@ -1,7 +1,9 @@
 import Link from "next/link";
 import styles from '../../page.module.css'
 const Navbar = () => {
-    return (<main>
+    return (
+      
+    <main>
         <nav className={styles.navbar}>
           <ul>
             <li>
@@ -26,7 +28,9 @@ const Navbar = () => {
             </li>
           </ul>
         </nav>
-    </main>)
+    </main>
+  
+    )
 };
 
 export default Navbar;

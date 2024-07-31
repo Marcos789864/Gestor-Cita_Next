@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
   return (
     <html>
       <body suppressHydrationWarning={true}>
-        <div className={styles.container}>
+        <div className={styles.fondo}>
           <Navbar/>
           <main className={styles.main}>
             {children}

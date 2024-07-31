@@ -1,6 +1,7 @@
-import React, { useState } from "react";
-import Input from "../Input/page";
+"use client"
 
+import { useState } from 'react';
+import Input from '../Input/page';  // Ajusta la ruta de tu componente Input
 
 function Form({ tipo1, tipo2, tipo3, tipo4, tipo5, agregarCita }) {
     const [Nombre, setNombre] = useState("");
