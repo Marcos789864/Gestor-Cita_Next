@@ -24,10 +24,10 @@ function Reservas()
         <div>
         <main className={styles['main-content']}>
 
-<h1> reservas</h1>
+<h1> Reservas</h1>
 
         </main>
-        <main className={styles['main-content']}>
+        <main className={styles['formGroup']}>
             <h3>Formulario reserva</h3>
         <Form tipo1 = "text" tipo2 = "number" tipo3 = "date" tipo4 = "time" tipo5 = "submit" agregarCita = {agregarCita} className= 'Form'></Form>
       <Listado listaCitas={citas} Eliminar={eliminarCita} className= 'Listado'></Listado>
