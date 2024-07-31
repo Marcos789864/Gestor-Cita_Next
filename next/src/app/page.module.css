@@ -1,0 +1,101 @@
+
+
+.navbar {
+  background-color: #dbd5d5; 
+  color: var(--nav-text-color); 
+  padding: 10px;
+  position: fixed;
+  top: 0; 
+  left: 0;
+  width: 100%;
+  z-index: 100; 
+  display: flex;
+  justify-content: center;  
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Alinea los elementos del menú en fila */
+}
+
+.navbar ul li {
+  margin: 0; /* Elimina el margen entre los elementos del menú */
+}
+
+.navbar ul li a {
+  color: #004494; /* Texto blanco */
+  display: inline-block;
+  padding: 10px 20px; /* Ajustado el espacio vertical y horizontal */
+  text-decoration: none;
+  font-family: 'Arial', sans-serif; /* Fuente cambiada a Arial */
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.3s; /* Suaviza la transición de fondo */
+}
+
+.navbar ul li a:hover {
+  background-color: var(--nav-hover-background); /* Fondo oscuro al pasar el ratón */
+}
+
+/* Contenedor de la descripción principal */
+.main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 0;
+  margin-top: 50px; /* Espacio suficiente para que el contenido no se esconda debajo de la barra de navegación */
+}
+
+/* Sección principal */
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  text-align: center;
+  padding: 40px 20px;
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.description h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: rgb(var(--foreground-rgb));
+  font-family: 'Arial', sans-serif;
+}
+
+.description p {
+  font-size: 1.125rem;
+  color: rgb(var(--foreground-rgb));
+  max-width: 700px;
+  line-height: 1.6;
+}
+
+/* Botón de llamada a la acción */
+.cta-button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: var(--border-radius);
+  background-color: #0071ff;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  margin-top: 20px;
+}
+
+.cta-button:hover {
+  background-color: #005bb5;
+  transform: translateY(-2px);
+}
+
+.cta-button:active {
+  background-color: #004494;
+  transform: translateY(0);
+}

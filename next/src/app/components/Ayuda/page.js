@@ -1,5 +1,4 @@
 import react from "react";
-import styles from "./page.modules.css";
 
 
 function Ayuda()

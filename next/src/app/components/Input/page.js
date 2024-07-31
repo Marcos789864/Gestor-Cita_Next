@@ -1,5 +1,4 @@
 import React from "react";
-import styles from "./page.modules.css";
 
 function Input({ id, tipo, txt, value, onChange, required }) {
     return (

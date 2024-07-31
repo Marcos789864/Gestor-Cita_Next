@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Input from "../Input/page";
-import styles from "./page.modules.css";
+
 
 function Form({ tipo1, tipo2, tipo3, tipo4, tipo5, agregarCita }) {
     const [Nombre, setNombre] = useState("");

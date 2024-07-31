@@ -1,6 +1,6 @@
 import React from "react";
-import Cita from "../Cita/page";
-import styles from "./page.modules.css";
+import Cita from "../Cita";
+
 
 function ListadoCita({ listaCitas, Eliminar }) {
     if (!Array.isArray(listaCitas)) {

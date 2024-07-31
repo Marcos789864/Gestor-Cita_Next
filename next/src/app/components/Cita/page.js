@@ -1,5 +1,5 @@
 import React from "react"; 
-import styles from "./page.modules.css";
+
 
 function Cita ({Nombre,CantPersonas,Fecha,Horario,Eliminar})
 {
